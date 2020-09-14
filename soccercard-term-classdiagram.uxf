@@ -30,11 +30,7 @@ fontfamily=Inconsolata
     <id>UMLClass</id>
     <coordinates>
       <x>24</x>
-<<<<<<< HEAD
-      <y>108</y>
-=======
       <y>96</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>180</w>
       <h>150</h>
     </coordinates>
@@ -61,11 +57,7 @@ Player
     <id>UMLClass</id>
     <coordinates>
       <x>30</x>
-<<<<<<< HEAD
-      <y>54</y>
-=======
       <y>42</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>78</w>
       <h>18</h>
     </coordinates>
@@ -78,11 +70,7 @@ __player1 : Player__
     <id>UMLClass</id>
     <coordinates>
       <x>126</x>
-<<<<<<< HEAD
-      <y>54</y>
-=======
       <y>42</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>78</w>
       <h>18</h>
     </coordinates>
@@ -95,11 +83,7 @@ __player2 : Player__
     <id>UMLClass</id>
     <coordinates>
       <x>312</x>
-<<<<<<< HEAD
-      <y>108</y>
-=======
       <y>96</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>174</w>
       <h>84</h>
     </coordinates>
@@ -119,11 +103,7 @@ Deck
     <id>Relation</id>
     <coordinates>
       <x>198</x>
-<<<<<<< HEAD
-      <y>138</y>
-=======
       <y>126</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>126</w>
       <h>30</h>
     </coordinates>
@@ -137,29 +117,19 @@ have a &gt;</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>324</x>
-<<<<<<< HEAD
-      <y>336</y>
-=======
       <y>324</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>180</w>
-      <h>132</h>
+      <h>108</h>
     </coordinates>
     <panel_attributes>/Card/
 --
 -idCard: string
--nameCard: string
--colourCard: ColorCard
 -typeCard: TypeCard
-<<<<<<< HEAD
--valuePoints: int
-=======
->>>>>>> a600c3e... The class diagram view is added and updated
+-colourCard: ColorCard
 --
 /+setIdCard(idCard: int)/
 /+getIdCard(): int/
-/+setNameCard(nameCard: string)/
-/+getNameCard(): string/
+
 /+setColourCard(colourCard: ColourCard)/
 /+getColourCard(): ColourCard/
 
@@ -170,11 +140,7 @@ have a &gt;</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>390</x>
-<<<<<<< HEAD
-      <y>186</y>
-=======
       <y>174</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>54</w>
       <h>162</h>
     </coordinates>
@@ -188,11 +154,7 @@ have a &gt;</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>288</x>
-<<<<<<< HEAD
-      <y>522</y>
-=======
       <y>510</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>240</w>
       <h>84</h>
     </coordinates>
@@ -213,13 +175,9 @@ ColourCard
     <id>UMLClass</id>
     <coordinates>
       <x>0</x>
-<<<<<<< HEAD
-      <y>324</y>
-=======
       <y>312</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>240</w>
-      <h>78</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>bg=blue
 fg=yellow
@@ -228,22 +186,20 @@ TypeCard
 --
 -nameTypeCard: string
 -descriptionTypeCard: string
+-valueElement[a: int, b: int, c: int]
 --
 +setNameTypeCard(nameTypeCard: string)
-+setDescriptionTypeCard(descriptionTypeCard: string)</panel_attributes>
++setDescriptionTypeCard(descriptionTypeCard: string)
++setValueElement(valueElement[])</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLNote</id>
     <coordinates>
       <x>114</x>
-<<<<<<< HEAD
-      <y>522</y>
-=======
       <y>510</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>108</w>
-      <h>42</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes>bg=yellow
 3 types of colours:
@@ -256,11 +212,7 @@ TypeCard
     <id>UMLNote</id>
     <coordinates>
       <x>126</x>
-<<<<<<< HEAD
-      <y>444</y>
-=======
       <y>432</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>90</w>
       <h>42</h>
     </coordinates>
@@ -274,11 +226,7 @@ TypeCard
     <id>Relation</id>
     <coordinates>
       <x>216</x>
-<<<<<<< HEAD
-      <y>534</y>
-=======
       <y>522</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>84</w>
       <h>18</h>
     </coordinates>
@@ -288,16 +236,6 @@ TypeCard
   <element>
     <id>UMLClass</id>
     <coordinates>
-<<<<<<< HEAD
-      <x>300</x>
-      <y>234</y>
-      <w>60</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>bg=orange
-FooballPlayer
---</panel_attributes>
-=======
       <x>270</x>
       <y>210</y>
       <w>102</w>
@@ -313,22 +251,12 @@ FooballPlayer
     speed: int,
     luck: int,
 ]</panel_attributes>
->>>>>>> a600c3e... The class diagram view is added and updated
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>438</x>
-<<<<<<< HEAD
-      <y>234</y>
-      <w>60</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>bg=orange
-ActionCard
---</panel_attributes>
-=======
       <y>210</y>
       <w>90</w>
       <h>90</h>
@@ -343,22 +271,12 @@ ActionCard
    modSpeed: int,
    modLuck: int
 ]</panel_attributes>
->>>>>>> a600c3e... The class diagram view is added and updated
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>324</x>
-<<<<<<< HEAD
-      <y>288</y>
-      <w>60</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
-&lt;&lt;extend&gt;&gt;</panel_attributes>
-    <additional_attributes>30.0;80.0;10.0;10.0</additional_attributes>
-=======
       <y>294</y>
       <w>60</w>
       <h>42</h>
@@ -366,21 +284,11 @@ ActionCard
     <panel_attributes>lt=&lt;&lt;-
 &lt;&lt;extend&gt;&gt;</panel_attributes>
     <additional_attributes>30.0;50.0;10.0;10.0</additional_attributes>
->>>>>>> a600c3e... The class diagram view is added and updated
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>450</x>
-<<<<<<< HEAD
-      <y>288</y>
-      <w>60</w>
-      <h>60</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;-
-&lt;&lt;extend&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;80.0;30.0;10.0</additional_attributes>
-=======
       <y>294</y>
       <w>60</w>
       <h>42</h>
@@ -388,17 +296,12 @@ ActionCard
     <panel_attributes>lt=&lt;&lt;-
 &lt;&lt;extend&gt;&gt;</panel_attributes>
     <additional_attributes>10.0;50.0;30.0;10.0</additional_attributes>
->>>>>>> a600c3e... The class diagram view is added and updated
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>312</x>
-<<<<<<< HEAD
-      <y>54</y>
-=======
       <y>42</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>78</w>
       <h>18</h>
     </coordinates>
@@ -411,11 +314,7 @@ __deck1 : Deck__
     <id>UMLClass</id>
     <coordinates>
       <x>408</x>
-<<<<<<< HEAD
-      <y>54</y>
-=======
       <y>42</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>78</w>
       <h>18</h>
     </coordinates>
@@ -428,11 +327,7 @@ __deck2 : Deck__
     <id>Relation</id>
     <coordinates>
       <x>438</x>
-<<<<<<< HEAD
-      <y>66</y>
-=======
       <y>54</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>72</w>
       <h>54</h>
     </coordinates>
@@ -444,11 +339,7 @@ __deck2 : Deck__
     <id>Relation</id>
     <coordinates>
       <x>342</x>
-<<<<<<< HEAD
-      <y>66</y>
-=======
       <y>54</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>72</w>
       <h>54</h>
     </coordinates>
@@ -460,11 +351,7 @@ __deck2 : Deck__
     <id>Relation</id>
     <coordinates>
       <x>156</x>
-<<<<<<< HEAD
-      <y>66</y>
-=======
       <y>54</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>72</w>
       <h>54</h>
     </coordinates>
@@ -476,11 +363,7 @@ __deck2 : Deck__
     <id>Relation</id>
     <coordinates>
       <x>54</x>
-<<<<<<< HEAD
-      <y>66</y>
-=======
       <y>54</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>72</w>
       <h>54</h>
     </coordinates>
@@ -492,74 +375,46 @@ __deck2 : Deck__
     <id>Relation</id>
     <coordinates>
       <x>396</x>
-<<<<<<< HEAD
-      <y>462</y>
-=======
-      <y>450</y>
->>>>>>> a600c3e... The class diagram view is added and updated
+      <y>426</y>
       <w>54</w>
-      <h>72</h>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-
 &lt;&lt;extend&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>324</x>
-<<<<<<< HEAD
-      <y>186</y>
-      <w>42</w>
-      <h>60</h>
-=======
       <y>174</y>
       <w>42</w>
       <h>48</h>
->>>>>>> a600c3e... The class diagram view is added and updated
     </coordinates>
     <panel_attributes>bg=black
 lt=&lt;&lt;&lt;&lt;-
 m2= 10..30
 </panel_attributes>
-<<<<<<< HEAD
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-=======
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
->>>>>>> a600c3e... The class diagram view is added and updated
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>462</x>
-<<<<<<< HEAD
-      <y>186</y>
-      <w>42</w>
-      <h>60</h>
-=======
       <y>174</y>
       <w>42</w>
       <h>48</h>
->>>>>>> a600c3e... The class diagram view is added and updated
     </coordinates>
     <panel_attributes>bg=black
 lt=&lt;&lt;&lt;&lt;-
 m2= 10..30</panel_attributes>
-<<<<<<< HEAD
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
-=======
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
->>>>>>> a600c3e... The class diagram view is added and updated
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>234</x>
-<<<<<<< HEAD
-      <y>348</y>
-=======
       <y>336</y>
->>>>>>> a600c3e... The class diagram view is added and updated
       <w>102</w>
       <h>24</h>
     </coordinates>
@@ -571,15 +426,11 @@ m2= 10..30</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>162</x>
-<<<<<<< HEAD
-      <y>396</y>
-=======
-      <y>384</y>
->>>>>>> a600c3e... The class diagram view is added and updated
+      <y>402</y>
       <w>18</w>
-      <h>60</h>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
 </diagram>
