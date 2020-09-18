@@ -25,14 +25,14 @@ fontfamily=Inconsolata
 
 
 // This text will be stored with each diagram;  use it for notes.</help_text>
-  <zoom_level>11</zoom_level>
+  <zoom_level>7</zoom_level>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>352</x>
-      <y>0</y>
-      <w>110</w>
-      <h>44</h>
+      <x>224</x>
+      <y>126</y>
+      <w>70</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>ViewMenu</panel_attributes>
     <additional_attributes/>
@@ -40,10 +40,10 @@ fontfamily=Inconsolata
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>220</x>
-      <y>11</y>
-      <w>22</w>
-      <h>22</h>
+      <x>140</x>
+      <y>133</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>type=initial</panel_attributes>
     <additional_attributes/>
@@ -51,10 +51,10 @@ fontfamily=Inconsolata
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>231</x>
-      <y>0</y>
-      <w>143</w>
-      <h>44</h>
+      <x>147</x>
+      <y>126</y>
+      <w>91</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 fontsize=12
@@ -64,10 +64,10 @@ init</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>33</y>
-      <w>33</w>
-      <h>110</h>
+      <x>252</x>
+      <y>147</y>
+      <w>21</w>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-&gt;</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
@@ -75,10 +75,10 @@ init</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>341</x>
-      <y>121</y>
-      <w>132</w>
-      <h>44</h>
+      <x>217</x>
+      <y>203</y>
+      <w>84</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>selectOptions</panel_attributes>
     <additional_attributes/>
@@ -86,10 +86,10 @@ init</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>154</y>
-      <w>55</w>
-      <h>121</h>
+      <x>252</x>
+      <y>224</y>
+      <w>35</w>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 try</panel_attributes>
@@ -98,10 +98,10 @@ try</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>385</x>
-      <y>253</y>
-      <w>44</w>
-      <h>44</h>
+      <x>245</x>
+      <y>287</y>
+      <w>28</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>type=decision</panel_attributes>
     <additional_attributes/>
@@ -109,10 +109,10 @@ try</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>55</x>
-      <y>286</y>
-      <w>374</w>
-      <h>99</h>
+      <x>35</x>
+      <y>308</y>
+      <w>238</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 fontsize=12
@@ -122,10 +122,10 @@ MakeProfileOption</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>198</x>
-      <y>286</y>
-      <w>231</w>
-      <h>132</h>
+      <x>126</x>
+      <y>308</y>
+      <w>147</w>
+      <h>84</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 fontsize=12
@@ -135,10 +135,10 @@ PrepareDeckOption</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>341</x>
-      <y>286</y>
-      <w>209</w>
-      <h>165</h>
+      <x>217</x>
+      <y>308</y>
+      <w>133</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 fontsize=12
@@ -148,10 +148,10 @@ PlayGameOption</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>231</x>
-      <y>132</y>
-      <w>176</w>
-      <h>165</h>
+      <x>147</x>
+      <y>210</y>
+      <w>112</w>
+      <h>105</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 
@@ -161,10 +161,10 @@ PlayGameOption</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>462</x>
-      <y>121</y>
-      <w>143</w>
-      <h>44</h>
+      <x>294</x>
+      <y>203</y>
+      <w>91</w>
+      <h>28</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 terminate</panel_attributes>
@@ -173,10 +173,10 @@ terminate</panel_attributes>
   <element>
     <id>UMLSpecialState</id>
     <coordinates>
-      <x>583</x>
-      <y>132</y>
-      <w>22</w>
-      <h>22</h>
+      <x>371</x>
+      <y>210</y>
+      <w>14</w>
+      <h>14</h>
     </coordinates>
     <panel_attributes>type=termination</panel_attributes>
     <additional_attributes/>
@@ -184,10 +184,10 @@ terminate</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>396</x>
-      <y>286</y>
-      <w>308</w>
-      <h>198</h>
+      <x>252</x>
+      <y>308</y>
+      <w>196</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 fontsize=12
@@ -198,9 +198,9 @@ ViewVictoriesOption</panel_attributes>
     <id>UMLState</id>
     <coordinates>
       <x>0</x>
-      <y>363</y>
-      <w>132</w>
-      <h>66</h>
+      <y>357</y>
+      <w>84</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>MakeProfile
 symbol=substate</panel_attributes>
@@ -209,10 +209,10 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>143</x>
-      <y>396</y>
-      <w>132</w>
-      <h>66</h>
+      <x>91</x>
+      <y>378</y>
+      <w>84</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>PrepareDeck
 symbol=substate</panel_attributes>
@@ -221,10 +221,10 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>286</x>
-      <y>429</y>
-      <w>132</w>
-      <h>66</h>
+      <x>182</x>
+      <y>399</y>
+      <w>84</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>PlayGame
 symbol=substate</panel_attributes>
@@ -233,13 +233,222 @@ symbol=substate</panel_attributes>
   <element>
     <id>UMLState</id>
     <coordinates>
-      <x>429</x>
-      <y>462</y>
-      <w>132</w>
-      <h>66</h>
+      <x>273</x>
+      <y>420</y>
+      <w>84</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>ViewVictories
 symbol=substate</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>504</x>
+      <y>119</y>
+      <w>322</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>valign=top
+MakeProfile</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>532</x>
+      <y>154</y>
+      <w>14</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>581</x>
+      <y>147</y>
+      <w>63</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>WriteName</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>154</y>
+      <w>56</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>147</y>
+      <w>84</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+fontsize=12
+isAlfanum</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>707</x>
+      <y>147</y>
+      <w>63</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>CheckName</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>721</x>
+      <y>203</y>
+      <w>28</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>602</x>
+      <y>168</y>
+      <w>133</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+fontsize=12
+isCheck = False</panel_attributes>
+    <additional_attributes>170.0;70.0;10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>168</y>
+      <w>21</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>224</y>
+      <w>84</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+fontsize=12
+isCheck = True</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>707</x>
+      <y>273</y>
+      <w>63</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>WriteColour</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>707</x>
+      <y>343</y>
+      <w>63</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>AgreeTo</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>294</y>
+      <w>21</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>602</x>
+      <y>294</y>
+      <w>119</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;</panel_attributes>
+    <additional_attributes>150.0;90.0;10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>595</x>
+      <y>273</y>
+      <w>28</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>602</x>
+      <y>210</y>
+      <w>84</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+fontsize=12
+isAllOk = False</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>532</x>
+      <y>273</y>
+      <w>77</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+fontsize=12
+isAllOk = True</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0;10.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>532</x>
+      <y>392</y>
+      <w>14</w>
+      <h>14</h>
+    </coordinates>
+    <panel_attributes>type=flow_final</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
